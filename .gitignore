@@ -1,8 +1,6 @@
 .DS_Store
 node_modules
 /dist
-
-
 # local env files
 .env.local
 .env.*.local
@@ -21,3 +19,12 @@ pnpm-debug.log*
 *.njsproj
 *.sln
 *.sw?
+
+*/.vscode/
+/.idea/
+*/dist/
+.DS_Store
+node_modules/
+.history/
+yarn.lock
+package-lock.json

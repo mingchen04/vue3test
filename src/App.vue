@@ -1,17 +1,20 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <img alt="Vue logo" src="./assets/logo.png"><br>
+  <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
+  {{ state.name }}
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import { reactive } from 'vue';
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
+  setup() {
+    const state = reactive({ name: "老李" });
+
+    return { state };
   }
+
 }
+
 </script>
 
 <style>
