@@ -6,7 +6,7 @@ import GrammaticalTang from '@/components/GrammaticalTang';
 import ComputedTest from '@/components/ComputedTest';
 import ClassStyle from '@/components/ClassStyle';
 import ifTest from '@/components/ifTest';
-
+import forTest from '@/components/forTest';
 
 const app = createApp(App)
     .component('Sssetup', Sssetup)
@@ -15,4 +15,6 @@ const app = createApp(App)
     .component("ComputedTest", ComputedTest) //计算属性
     .component("ClassStyle", ClassStyle) //类与样式绑定
 app.component("ifTest", ifTest); //条件渲染
+app.component("forTest", forTest);
+
 app.mount('#app');

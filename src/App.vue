@@ -16,7 +16,10 @@
   <!-- <class-style class="ye"></class-style> -->
 
   <!-- 条件渲染 -->
-  <if-test></if-test>
+  <!-- <if-test></if-test> -->
+
+  <!-- 列表循环-->
+  <for-test></for-test>
 </template>
 
 <script>
