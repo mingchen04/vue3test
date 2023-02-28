@@ -13,7 +13,10 @@
   <!-- <ComputedTest></ComputedTest> -->
 
   <!-- 类与样式绑定 -->
-  <class-style class="ye"></class-style>
+  <!-- <class-style class="ye"></class-style> -->
+
+  <!-- 条件渲染 -->
+  <if-test></if-test>
 </template>
 
 <script>
@@ -39,9 +42,10 @@ export default {
 </script>
 
 <style>
-.ye{
+.ye {
   background: yellow;
 }
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
