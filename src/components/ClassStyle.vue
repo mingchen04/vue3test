@@ -1,5 +1,5 @@
 <template>
-    <!-- 指定根元素接受这个class -->
+    <!-- $attrs.class指定根元素接受这个class -->
     <div :class="$attrs.class">
         <h1>类与样式绑定</h1>
         <p>数据绑定的一个常见需求场景是操纵元素的 CSS class 列表和内联样式。因为 class 和 style 都是 attribute，我们可以和其他 attribute 一样使用 v-bind
